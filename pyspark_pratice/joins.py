@@ -419,7 +419,7 @@
 
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col,lit
 from utils.logger import logger
 
 
@@ -449,7 +449,6 @@ try:
         'data/joins/orders.csv',
         header=True,
         inferSchema=True
-        
     )
     
     logger.info('creating alias for customers and orders dataframe')
