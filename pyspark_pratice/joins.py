@@ -431,6 +431,7 @@ try:
         SparkSession.builder 
         .master('local[2]')
         .appName('Left Anti join')
+        
         .getOrCreate()
     )
     logger.info('Spark Session Created')
