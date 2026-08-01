@@ -449,6 +449,7 @@ try:
         'data/joins/orders.csv',
         header=True,
         inferSchema=True
+        
     )
     
     logger.info('creating alias for customers and orders dataframe')
