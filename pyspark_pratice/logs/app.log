@@ -49724,3 +49724,52 @@ py4j.protocol.Py4JNetworkError: Error while sending
 2026-07-24 17:33:42,307 | INFO | Round the average salary to 2 decimal places using round
 2026-07-24 17:34:18,587 | INFO | Spark stopped
 2026-07-24 17:34:18,612 | INFO | Closing down clientserver connection
+2026-08-05 11:17:39,952 | INFO | Starting Spark Application
+2026-08-05 11:18:18,252 | INFO | Spark Session Created
+2026-08-05 11:18:24,880 | INFO | Employees CSV loaded successfully
+2026-08-05 11:18:30,231 | INFO | Spark Session Stopped
+2026-08-05 11:18:30,258 | INFO | Closing down clientserver connection
+2026-08-05 11:59:28,153 | INFO | Starting Spark Application
+2026-08-05 11:59:39,109 | INFO | Spark Session Created
+2026-08-05 11:59:46,578 | INFO | Employees CSV loaded successfully
+2026-08-05 16:50:05,879 | INFO | Creating Spark Session
+2026-08-05 16:50:57,636 | INFO | Spark Session Created Successfully
+2026-08-05 16:50:57,639 | INFO | Reading employees_day1.csv
+2026-08-05 16:51:09,223 | INFO | Reading employees_day2.csv
+2026-08-05 16:51:09,946 | INFO | Reading employees_day3.csv
+2026-08-05 16:51:10,531 | INFO | Displaying Day 1 Data
+2026-08-05 16:51:11,166 | INFO | Displaying Day 2 Data
+2026-08-05 16:51:11,406 | INFO | Displaying Day 3 Data
+2026-08-05 16:51:11,651 | INFO | Day 1 Schema
+2026-08-05 16:51:11,657 | INFO | Day 2 Schema
+2026-08-05 16:51:11,658 | INFO | Day 3 Schema
+2026-08-05 16:51:13,605 | INFO | Day 1 Rows : 2
+2026-08-05 16:51:13,606 | INFO | Day 2 Rows : 2
+2026-08-05 16:51:13,607 | INFO | Day 3 Rows : 2
+2026-08-05 16:51:13,607 | INFO | Combining Day 1 and Day 2 using union()
+2026-08-05 16:51:13,638 | INFO | Day 1 and Day 2 Combined Successfully
+2026-08-05 16:51:13,639 | INFO | Adding Day 3 using unionByName()
+2026-08-05 16:51:13,685 | INFO | Day 3 Added Successfully
+2026-08-05 16:51:13,686 | INFO | Sorting Employees by Salary Descending
+2026-08-05 16:51:13,819 | INFO | Displaying Final DataFrame
+2026-08-05 16:51:14,540 | INFO | Final Schema
+2026-08-05 16:51:15,072 | INFO | Total Records : 6
+2026-08-05 16:54:04,075 | INFO | Spark Session Stopped Successfully
+2026-08-05 16:54:04,116 | INFO | Closing down clientserver connection
+2026-08-11 10:06:55,718 | INFO | Creating Spark Session
+2026-08-11 10:07:16,739 | INFO | Spark Session Created
+2026-08-11 10:07:16,739 | INFO | Reading Customers.csv dataframe or file
+2026-08-11 10:07:22,598 | INFO | Reading Order.csv dataframe or file
+2026-08-11 10:07:23,003 | INFO | creating alias for customers and orders dataframe
+2026-08-11 10:07:23,016 | INFO | Performing Left Anti join
+2026-08-11 10:07:25,073 | INFO | Customer who never placed an order: 2
+2026-08-11 10:07:25,073 | INFO | Printing Schema
+2026-08-11 10:21:49,283 | INFO | Creating Spark Session
+2026-08-11 10:21:58,638 | INFO | Spark Session Created
+2026-08-11 10:21:58,638 | INFO | Reading Customers.csv dataframe or file
+2026-08-11 10:22:04,479 | INFO | Reading Order.csv dataframe or file
+2026-08-11 10:22:04,747 | INFO | creating alias for customers and orders dataframe
+2026-08-11 10:22:04,755 | INFO | Performing Left Anti join
+2026-08-11 10:22:06,212 | INFO | Customer who never placed an order: 2
+2026-08-11 10:22:06,212 | INFO | Printing Schema
+2026-08-11 10:23:11,639 | INFO | Closing down clientserver connection
